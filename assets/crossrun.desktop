@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=CrossRun
+GenericName=AMD64 application runner
+Comment=Run AMD64 (x86-64) Linux applications on your ARM64 Raspberry Pi
+Exec=@EXEC@
+Icon=crossrun
+Terminal=false
+Categories=System;Utility;Emulator;
+Keywords=amd64;x86_64;x86-64;box64;qemu;emulator;translator;raspberry;
+StartupNotify=true

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crossrun"
+version = "0.1.0"
+description = "Run AMD64 Linux applications on ARM64 Raspberry Pi via Box64 and QEMU user-mode"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "CrossRun contributors" }]
+keywords = ["raspberry-pi", "arm64", "aarch64", "amd64", "x86-64", "box64", "qemu"]
+classifiers = [
+    "Environment :: Console",
+    "Environment :: X11 Applications :: GTK",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Emulators",
+]
+
+[project.scripts]
+crossrun = "crossrun.cli:main"
+crossrun-gui = "crossrun.gui:main"
+
+[tool.setuptools]
+packages = ["crossrun", "crossrun.core"]

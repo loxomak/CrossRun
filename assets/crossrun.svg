@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#263238"/>
+      <stop offset="1" stop-color="#10171b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff8a65"/>
+      <stop offset="1" stop-color="#ffb74d"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="24" fill="url(#bg)"/>
+  <!-- chip -->
+  <rect x="24" y="30" width="36" height="36" rx="6" fill="none" stroke="#80cbc4" stroke-width="4"/>
+  <g stroke="#80cbc4" stroke-width="3" stroke-linecap="round">
+    <path d="M32 22v8M42 22v8M52 22v8M32 66v8M42 66v8M52 66v8"/>
+    <path d="M16 38h8M16 48h8M16 58h8M60 38h8M60 48h8M60 58h8"/>
+  </g>
+  <!-- translation arrows -->
+  <g fill="none" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M66 56h38"/>
+    <path d="M94 46l10 10-10 10"/>
+    <path d="M104 82H66"/>
+    <path d="M76 72l-10 10 10 10"/>
+  </g>
+  <!-- ARM blocks -->
+  <g fill="#b0bec5">
+    <rect x="72" y="34" width="10" height="10" rx="2"/>
+    <rect x="86" y="34" width="10" height="10" rx="2"/>
+    <rect x="100" y="34" width="10" height="10" rx="2"/>
+    <rect x="72" y="96" width="10" height="10" rx="2"/>
+    <rect x="86" y="96" width="10" height="10" rx="2"/>
+    <rect x="100" y="96" width="10" height="10" rx="2"/>
+  </g>
+</svg>
